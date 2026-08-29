@@ -1,0 +1,35 @@
+# Gradle build output and local cache
+.gradle/
+build/
+**/build/
+
+# Java compiler output
+out/
+**/out/
+*.class
+
+# IDE and operating system files
+.idea/
+.vscode/
+*.iml
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Local environment and secrets
+.env
+.env.*
+!.env.example
+application-local.properties
+application-local.yml
+application-local.yaml
+
+# Local database files and database dumps
+*.db
+*.sqlite
+*.sqlite3
+*.dump
+*.sql.gz
